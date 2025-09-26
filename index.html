@@ -68,9 +68,19 @@
   </nav>
 
   <main>
-    <h2>Hello, world!</h2>
-    <p>This is My WebSite.</p>
-  </main>
+  <h2>Login</h2>
+  <form action="#" method="post" style="display: flex; flex-direction: column; gap: 1em;">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required style="padding: 0.5em; border: 1px solid #ccc; border-radius: 4px;">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required style="padding: 0.5em; border: 1px solid #ccc; border-radius: 4px;">
+
+    <button type="submit" style="background-color: #6a0dad; color: white; padding: 0.7em; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">
+      Login
+    </button>
+  </form>
+</main>
 
   <footer>
     &copy; 2025 My Purple Website. All rights reserved.
